@@ -1,0 +1,26 @@
+{
+  "and": [
+    {
+      "timestamp": "last_edited_time",
+      "last_edited_time": {
+        "on_or_after": "2023-11-18"
+      }
+    },
+    {
+      "or": [
+        {
+          "property": "Status",
+          "status": {
+            "equals": "Done"
+          }
+        },
+        {
+          "property": "Status",
+          "status": {
+            "equals": "meh.."
+          }
+        }
+      ]
+    }
+  ]
+}
