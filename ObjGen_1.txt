@@ -10,3 +10,5 @@ or []
   property = Status
   status
     equals = meh..
+
+# https://www.objgen.com/json/local/K95EAamWh
